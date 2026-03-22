@@ -5,6 +5,8 @@ import RegistrationForm from './programs/RegistrationForm'
 import ColorPicker from './programs/ColorPicker'
 import Greeting from './programs/Greeting'
 import Calculator from './programs/Calculator'
+import UserList from './programs/UserList'
+import TabNav from './programs/TabNav'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <ColorPicker />
       <Greeting />
       <Calculator />
+      <UserList />
+      <TabNav />
     
     </div>
   )
