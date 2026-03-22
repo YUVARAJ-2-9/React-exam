@@ -12,7 +12,7 @@ function UserList() {
 
   return (
     <div style={{ padding: "10px", border: "1px solid gray", margin: "10px" }}>
-      <h3>Level 4: User List (API Fetch)</h3>
+      <h3>User List (API Fetch)</h3>
       {users.map((user) => (
         <div key={user.id} style={{ borderBottom: "1px dotted black", padding: "5px" }}>
           <p><strong>Name:</strong> {user.name}</p>

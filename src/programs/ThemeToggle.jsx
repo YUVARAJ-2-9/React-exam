@@ -15,7 +15,7 @@ function ThemeToggle() {
 
   return (
     <div style={themeStyle}>
-      <h3>Level 5: Theme Toggle</h3>
+      <h3> Theme Toggle</h3>
       <p>Current Mode: {isDark ? "Dark 🌙" : "Light ☀️"}</p>
       <button onClick={() => setIsDark(!isDark)}>
         Switch to {isDark ? "Light" : "Dark"} Mode

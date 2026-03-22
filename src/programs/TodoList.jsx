@@ -31,7 +31,6 @@ function TodoList() {
       
       <div style={{ marginBottom: "20px" }}>
         <input 
-          type="text" 
           value={task} 
           onChange={(e) => setTask(e.target.value)} 
           placeholder="Enter a task..."

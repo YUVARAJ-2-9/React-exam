@@ -9,7 +9,7 @@ function MiniBlog() {
 
   return (
     <div style={{ padding: "10px", border: "1px solid gray", margin: "10px" }}>
-      <h3>Level 5: Mini Blog</h3>
+      <h3> Mini Blog</h3>
       
       {view === "home" ? (
         <div>

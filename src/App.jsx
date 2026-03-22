@@ -21,8 +21,8 @@ function App() {
       <Calculator />
       <UserList />
       <TabNav />
-      <MiniBlog />
       <ThemeToggle />
+      <MiniBlog />
     
     </div>
   )

@@ -5,7 +5,7 @@ function TabNav() {
 
   return (
     <div style={{ padding: "10px", border: "1px solid gray", margin: "10px", textAlign: "center" }}>
-      <h3>Level 4: Tab Navigation</h3>
+      <h3> Tab Navigation</h3>
       <div>
         <button onClick={() => setActiveTab("home")}>Home</button>
         <button onClick={() => setActiveTab("about")}>About</button>
