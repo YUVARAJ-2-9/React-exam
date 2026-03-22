@@ -7,6 +7,8 @@ import Greeting from './programs/Greeting'
 import Calculator from './programs/Calculator'
 import UserList from './programs/UserList'
 import TabNav from './programs/TabNav'
+import MiniBlog from './programs/MiniBlog'
+import ThemeToggle from './programs/ThemeToggle'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Calculator />
       <UserList />
       <TabNav />
+      <MiniBlog />
+      <ThemeToggle />
     
     </div>
   )
