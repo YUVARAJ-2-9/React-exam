@@ -9,11 +9,12 @@ import UserList from './programs/UserList'
 import TabNav from './programs/TabNav'
 import MiniBlog from './programs/MiniBlog'
 import ThemeToggle from './programs/ThemeToggle'
+import Counter1 from './programs/Counter1'
 
 function App() {
   return (
     <div>
-      <Counter />
+      {/* <Counter />
       <TodoList />
       <RegistrationForm />
       <ColorPicker />
@@ -22,7 +23,9 @@ function App() {
       <UserList />
       <TabNav />
       <ThemeToggle />
-      <MiniBlog />
+      <MiniBlog /> */}
+
+      <Counter1 />
     
     </div>
   )
